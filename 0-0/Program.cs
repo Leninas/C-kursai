@@ -19,6 +19,7 @@ namespace _0_0
                 }
                 Console.Write(sk + " ");
                 sk++;
+                // pradzia
             }
         }
     }
