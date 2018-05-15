@@ -62,7 +62,7 @@
             // atidarytiToolStripMenuItem
             // 
             this.atidarytiToolStripMenuItem.Name = "atidarytiToolStripMenuItem";
-            this.atidarytiToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
+            this.atidarytiToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.atidarytiToolStripMenuItem.Text = "Atidaryti";
             this.atidarytiToolStripMenuItem.Click += new System.EventHandler(this.atidarytiToolStripMenuItem_Click);
             // 
@@ -88,6 +88,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(371, 422);
             this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Form1
             // 
