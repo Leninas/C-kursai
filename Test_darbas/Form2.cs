@@ -20,10 +20,18 @@ namespace Test_darbas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using (StreamWriter sw = new StreamWriter(@"C:\Users\aleni\Desktop\C mokymai\skolininkai.csv", append: true))
-            {
-                sw.WriteLine(textBox1.InnerText.Trim());
-            }
+            var vardasNew = textBox1.Text;
+            var pavardeNew = textBox2.Text;
+            
+            //using (StreamWriter sw = new StreamWriter(@"C:\Users\aleni\Desktop\C mokymai\skolininkai.csv", append: true))
+            //{
+            //    sw.WriteLine(vardasF.InnerText.Trim());
+            //}
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
