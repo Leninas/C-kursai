@@ -23,10 +23,10 @@ namespace Test_darbas
             var vardasNew = textBox1.Text;
             var pavardeNew = textBox2.Text;
 
-            using (StreamWriter sw = new StreamWriter(@"C:\Users\aleni\Desktop\C mokymai\skolininkai.csv", append: true))
-            {
-                sw.WriteLine(vardasNew.InnerText.Trim());
-            }
+            //using (StreamWriter sw = new StreamWriter(@"C:\Users\aleni\Desktop\C mokymai\skolininkai.csv", append: true))
+            //{
+            //    sw.WriteLine(vardasNew.InnerText.Trim());
+            //}
         }
 
         private void button2_Click(object sender, EventArgs e)
