@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BB3973CA-4C51-4A1B-8BD7-BE38884B222F}</ProjectGuid>
+    <ProjectGuid>{BE9AC5D3-8C0B-4B9D-8587-259E866E4988}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_17_2_Interface_testing</RootNamespace>
-    <AssemblyName>17-2 Interface testing</AssemblyName>
+    <RootNamespace>_18_1_koordinates</RootNamespace>
+    <AssemblyName>18_1_koordinates</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,7 +44,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Uzsakymas.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

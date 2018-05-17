@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BB3973CA-4C51-4A1B-8BD7-BE38884B222F}</ProjectGuid>
+    <ProjectGuid>{F17052E8-3AC9-4517-BE2E-6851436133F7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_17_2_Interface_testing</RootNamespace>
-    <AssemblyName>17-2 Interface testing</AssemblyName>
+    <RootNamespace>_17_4_Uzduotis_Interface_FileWrite</RootNamespace>
+    <AssemblyName>17_4_Uzduotis_Interface_FileWrite</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Darbuotojas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Uzsakymas.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
