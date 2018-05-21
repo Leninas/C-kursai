@@ -6,18 +6,20 @@ using System.Threading.Tasks;
 
 namespace NamuProjektas_v1
 {
-    class VartotojuKoduIndeksai<T,K,A>
+    class VKI<D1,D2,I>
     {
-        public List<T> vienasTipas { get; set; }
-        public List<T> antrasTipas { get; set; }
-        public List<T> treciasTipas { get; set; }
+        public List<D1> vienasTipas { get; set; }
+        public List<D2> antrasTipas { get; set; }
+        public List<I> treciasTipas { get; set; }
     }
 
     class Program
     {
         static void Main(string[] args)
         {
-            List<VartotojuKoduIndeksai<int, string, char>> kazkas = new List<VartotojuKoduIndeksai<int, string, char>>();
+            System.IO.StreamReader reader = new System.IO.StreamReader("vki.txt");
+
+            List<VKI<int, string, char>> kazkas = new List<VKI<int, string, char>>();
         }
     }
 }
