@@ -22,8 +22,8 @@ namespace _17_4_Uzduotis_Interface_FileWrite
             {
                 path = fdb.SelectedPath;
             }
-            System.IO.StreamWriter writer = new System.IO.StreamWriter(path+@"\failas.csv", true); // - true reiskia kad papildo failo info
-            writer.WriteLine(ID + ' ' + Vardas);
+            System.IO.StreamWriter writer = new System.IO.StreamWriter(path+@"\idata.txt", true); // - true reiskia kad papildo failo info
+            writer.WriteLine(ID + ';' + Vardas);
             writer.Flush(); // - Flush isvalo buferi
         }
 

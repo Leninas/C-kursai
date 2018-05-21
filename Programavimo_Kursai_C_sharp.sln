@@ -217,6 +217,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_1_koordinates", "18_1_ko
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_2_mok_lentele", "18_2_mok_lentele\18_2_mok_lentele.csproj", "{BCCB01F9-796D-4A8A-B95F-6784B22853AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamuProjektas_v1", "NamuProjektas_v1\NamuProjektas_v1.csproj", "{D039554A-1660-444E-8478-EA1D3EA82DCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -575,6 +577,10 @@ Global
 		{BCCB01F9-796D-4A8A-B95F-6784B22853AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCCB01F9-796D-4A8A-B95F-6784B22853AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCCB01F9-796D-4A8A-B95F-6784B22853AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D039554A-1660-444E-8478-EA1D3EA82DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D039554A-1660-444E-8478-EA1D3EA82DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D039554A-1660-444E-8478-EA1D3EA82DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D039554A-1660-444E-8478-EA1D3EA82DCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -668,6 +674,7 @@ Global
 		{F17052E8-3AC9-4517-BE2E-6851436133F7} = {E04AAB5E-46B2-4261-B272-D88840260912}
 		{BE9AC5D3-8C0B-4B9D-8587-259E866E4988} = {F51759A4-E7A0-4B7D-BD6E-BE49CD06B253}
 		{BCCB01F9-796D-4A8A-B95F-6784B22853AD} = {F51759A4-E7A0-4B7D-BD6E-BE49CD06B253}
+		{D039554A-1660-444E-8478-EA1D3EA82DCD} = {CB5C1ABC-B38F-45C0-A41E-32B56232DF0C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9B4CDA89-8E8E-417D-BF6A-0440A2EFFCB6}
