@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboUserID = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -45,61 +45,62 @@
             this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // comboUserID
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(17, 148);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(330, 33);
-            this.comboBox1.TabIndex = 0;
+            this.comboUserID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.comboUserID.FormattingEnabled = true;
+            this.comboUserID.Location = new System.Drawing.Point(17, 148);
+            this.comboUserID.Name = "comboUserID";
+            this.comboUserID.Size = new System.Drawing.Size(330, 33);
+            this.comboUserID.TabIndex = 0;
+            this.comboUserID.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.textBox1.Location = new System.Drawing.Point(611, 148);
+            this.textBox1.Location = new System.Drawing.Point(647, 148);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(468, 30);
+            this.textBox1.Size = new System.Drawing.Size(432, 30);
             this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.textBox2.Location = new System.Drawing.Point(611, 328);
+            this.textBox2.Location = new System.Drawing.Point(647, 328);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(468, 30);
+            this.textBox2.Size = new System.Drawing.Size(432, 30);
             this.textBox2.TabIndex = 2;
             // 
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.textBox3.Location = new System.Drawing.Point(611, 292);
+            this.textBox3.Location = new System.Drawing.Point(647, 292);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(468, 30);
+            this.textBox3.Size = new System.Drawing.Size(432, 30);
             this.textBox3.TabIndex = 3;
             // 
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.textBox4.Location = new System.Drawing.Point(611, 256);
+            this.textBox4.Location = new System.Drawing.Point(647, 256);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(468, 30);
+            this.textBox4.Size = new System.Drawing.Size(432, 30);
             this.textBox4.TabIndex = 4;
             // 
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.textBox5.Location = new System.Drawing.Point(611, 220);
+            this.textBox5.Location = new System.Drawing.Point(647, 220);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(468, 30);
+            this.textBox5.Size = new System.Drawing.Size(432, 30);
             this.textBox5.TabIndex = 5;
             // 
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.textBox6.Location = new System.Drawing.Point(611, 184);
+            this.textBox6.Location = new System.Drawing.Point(647, 184);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(468, 30);
+            this.textBox6.Size = new System.Drawing.Size(432, 30);
             this.textBox6.TabIndex = 6;
             // 
             // label1
@@ -111,7 +112,6 @@
             this.label1.Size = new System.Drawing.Size(186, 20);
             this.label1.TabIndex = 7;
             this.label1.Text = "Darbuotojas (is saraso)";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -132,7 +132,6 @@
             this.label3.Size = new System.Drawing.Size(31, 25);
             this.label3.TabIndex = 10;
             this.label3.Text = "ID";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -203,7 +202,7 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboUserID);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -213,7 +212,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboUserID;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
