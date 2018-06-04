@@ -46,9 +46,10 @@ namespace v1__Islaikymo_indeksavimas
                 new VKI (11, DateTime.Parse("2018-02-01"), DateTime.Parse("2019-01-31"), 103.9),
             };
 
-            // ----------------------------------- trinti         piDataNuo.Text = "2017-02-05";
-            piDataIki.Text = "2018-03-15";
-            piDydis.Text = Convert.ToString("100");
+            // ----------------------------------- trinti
+            //piDataNuo.Text = "2015-03-15";
+            //piDataIki.Text = "2018-03-15";
+            //piDydis.Text = Convert.ToString("100");
             // --------------------------------------------------
 
 
