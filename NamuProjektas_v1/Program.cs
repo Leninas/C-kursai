@@ -27,11 +27,11 @@ namespace NamuProjektas_v1
         {
             //System.IO.StreamReader reader = new System.IO.StreamReader("vki.txt");
 
-            List<Indeksas> vki = new List<Indeksas>()
-            {
-                new Indeksas (new DateTime(year: 2012, month: 02, day: 01), new DateTime(year: 2013, month: 01, day: 31), 146,4),
-                new Indeksas (2012.02.01, 2013.01.31, 146,4),
-            };
+            //List<Indeksas> vki = new List<Indeksas>()
+            //{
+            //    new Indeksas (new DateTime(year: 2012, month: 02, day: 01), new DateTime(year: 2013, month: 01, day: 31), 146,4),
+            //    new Indeksas (2012.02.01, 2013.01.31, 146,4),
+            //};
 
         }
     }
