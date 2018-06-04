@@ -54,7 +54,7 @@ namespace v1__Islaikymo_indeksavimas
 
 
             // nustatome, kad turi buti uzpildyti visi privalomi laikai, kad veiktu mogtukas "Apskaiciuoti"
-            if (piDataNuo.Text == "" && piDataIki.Text == "" && piDydis.Text == "")
+            if (piDataNuo.Text == "" || piDataIki.Text == "" || piDydis.Text == "")
             {
                 MessageBox.Show("Reikia uzpildyti visus privalomus laukus", "Klaida!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
